@@ -1,19 +1,34 @@
 <!doctype html>
 <html lang="en">
+  //head is important part of the HTML document, it is the container for all the head 
+  elements that include the title for the document, scripts, styles and more.
   <head>
+  
+    //meta tag specifies which character set a website is to be written with
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
+   
+   //element creates the link between the html document and an external resource.
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/materia/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+  //title is what the website is called
     <title>React Google Books Search</title>
   </head>
+  
+  //all the code for the website that you want to show up goes in the body.
   <body>
+    
+  //noscript is used for providing alternative contect for browesers that don't support
+  javascript or other languages.
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+    
+  //root is DOM node, everything inside it will be managed by React DOM.
     <div id="root"></div>
   </body>
 </html>

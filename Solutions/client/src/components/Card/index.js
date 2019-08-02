@@ -1,5 +1,6 @@
+//importing from outside source
 import React from "react";
-
+//the function of the card 
 function Card({ icon, title, children }) {
   return (
     <div className="card mt-4">

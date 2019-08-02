@@ -1,3 +1,8 @@
+// This provides information about an application such as the the name, author in the json file.
+
+
+
+
 {
   "short_name": "React Google Books Search",
   "name": "React Google Books Search",

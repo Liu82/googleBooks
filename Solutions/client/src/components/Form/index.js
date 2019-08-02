@@ -1,5 +1,6 @@
+//import from outside sournce
 import React from "react";
-
+//function of the form. Its showing the book and titiel.
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
     <form>
@@ -18,6 +19,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           required
         />
       </div>
+     //search button for the right
       <div className="pull-right">
         <button
           onClick={handleFormSubmit}

@@ -1,3 +1,4 @@
+//importing from the outside source
 import React from "react";
 import "./style.css";
 

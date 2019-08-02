@@ -1,5 +1,7 @@
+//importing from outside source
 import React from "react";
 
+//function, the footer is what goes at the bottom of the page.
 function Footer() {
   return (
     <footer>

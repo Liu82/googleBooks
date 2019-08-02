@@ -1,8 +1,10 @@
+//import is used to import extermal files.
 import React from "react";
 import { ListItem } from "../List";
 import { Row, Col } from "../Grid";
 import "./style.css";
 
+//values are passed to a function and then a return is a value. 
 function Book({ title, subtitle, authors, link, description, image, Button }) {
   return (
     <ListItem>
