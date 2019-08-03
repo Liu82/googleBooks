@@ -1,7 +1,9 @@
+// importing from React
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+//this is for the the size of the nav
 class Nav extends Component {
   state = {
     open: false,
@@ -29,7 +31,7 @@ class Nav extends Component {
   componentWillUnmount() {
     window.removeEventListener("resize", this.updateWidth);
   }
-
+// for the nav bar
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">

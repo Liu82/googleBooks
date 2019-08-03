@@ -1,3 +1,4 @@
+//list of pakcages the project depends on
 {
   "name": "react-google-books",
   "version": "0.1.0",

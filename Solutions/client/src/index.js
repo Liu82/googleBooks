@@ -1,3 +1,4 @@
+//importing from different location
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";

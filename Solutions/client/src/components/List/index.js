@@ -10,6 +10,7 @@ export const List = ({ children }) => (
   </ul>
 );
 
+// exports list items
 export function ListItem({ children }) {
   return <li className="list-group-item">{children}</li>;
 }
